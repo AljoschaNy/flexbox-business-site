@@ -25,8 +25,9 @@
 }
 
 /* Mobile width max 480px */
-/* Tablet width max 768px */
-/* Large screens min 768px */
+/* Tablet width max 800px */
+/* Large screens min 800px */
+/* Extra-Large screens min 1200px */
 
 /* Universal styles */
 html {
@@ -92,6 +93,10 @@ img {
 
 .last {
     border: none !important;
+}
+
+.section-title {
+    margin-bottom: 40px;
 }
 
 @media only screen and (min-width:480px) {
@@ -231,7 +236,7 @@ main {
     }
 }
 
-@media only screen and (min-width:1250px) {
+@media only screen and (min-width:1200px) {
     .banner {
         height: 600px;
     }
@@ -277,7 +282,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-bottom: 25px;
     border-bottom: 1px solid;
 }
@@ -285,14 +290,54 @@ main {
 .feature span {
     margin-bottom: 40px;
 }
-/* 
+
 @media only screen and (min-width:480px){
     .features {
+        background-color: rgba(253, 255, 252, 1);
+    }
+
+    .features h2 {
+        color: rgb(1, 22, 39);
+    }
+    
+    .features-list {
         flex-direction: row;
         flex-wrap: wrap;
-        
+        width: 100%;
+        justify-content: space-between;
+        /* For rounded corners */
+        /* justify-content: space-around; */
     }
-} */
+
+    .feature {
+        width: 45%;
+        height: 350px;
+        margin: 0;
+        background-color: rgb(46, 196, 182);
+        border: none;
+        margin-bottom: 20px;
+        padding: 60px 10px;
+        /* For rounded corners */
+        /* border-radius: 10px; */
+    }
+}
+
+@media only screen and (min-width:800px){  
+    .features-list {
+        width: 100%;
+        max-width: 1000px;
+        margin: 0 auto;
+        justify-content: space-between;
+        /* For rounded corners */
+        /* justify-content: space-around; */
+    }
+
+    .feature {
+        width: 30%;
+        /* For rounded corners */
+        /* border-radius: 10px; */
+    }
+}
 
 /* Employees section */
 .employees {
