@@ -146,6 +146,7 @@ section.logo img{
     div.header { 
         width: 80%;
         margin: 0 auto;
+        padding: 0;
     }
     
     section.logo img {
@@ -176,6 +177,12 @@ main {
     top: 100px;
 }
 
+@media only screen and (min-width:800px) {
+    main {
+        top: 150px;
+    }
+}
+
 /* Banner */
 .banner {
     background-image: url("../images/banner-img-blur.png");
@@ -197,6 +204,24 @@ main {
     margin-bottom: 20px;
     font-size: 300;
     font-style: italic;
+}
+
+@media only screen and (min-width:480px) {
+    .banner {
+        height: 400px;
+    }
+}
+
+@media only screen and (min-width:800px) {
+    .banner {
+        height: 500px;
+    }
+}
+
+@media only screen and (min-width:1250px) {
+    .banner {
+        height: 600px;
+    }
 }
 
 /* Mission section */
