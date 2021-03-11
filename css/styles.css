@@ -35,14 +35,18 @@ html {
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 h2 {
+    font-size: 2rem;
+}
+
+h3 {
     font-size: 1.6rem;
 }
 
-h3,
+h4,
 p,
 span,
 .btn {
@@ -123,7 +127,7 @@ header {
 }
 
 .banner-quote {
-    width: 250px;
+    width: 300px;
     text-align: center;
     background-color: rgba(253, 255, 252, 1);
     color: rgb(1, 22, 39);
@@ -141,6 +145,30 @@ header {
 
 
 /* Features section */
+.features {
+    
+    background-color: rgb(46, 196, 182);
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+    border-bottom: 1px solid;
+}
+
+#last-feature {
+    border: none;
+}
+
+.feature span {
+    margin-bottom: 40px;
+}
 
 /* Employees section */
 
