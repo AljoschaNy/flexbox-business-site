@@ -94,6 +94,19 @@ img {
     border: none !important;
 }
 
+@media only screen and (min-width:480px) {
+    .space {
+        height: 75px;
+    }
+}
+
+@media only screen and (min-width:800px) {
+    .space {
+        height: 100px;
+    }
+}
+
+
  /* Header section */
 header {        
     width: 100%;
@@ -229,6 +242,20 @@ main {
     color: rgb(1, 22, 39);
     padding: 0 20px;
     text-align: center;
+}
+
+@media only screen and (min-width:480px) {
+    .mission {
+        padding: 0;
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width:800px) {
+    .mission {
+        width: 60%;
+    }
 }
 
 
