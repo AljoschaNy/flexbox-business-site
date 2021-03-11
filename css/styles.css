@@ -34,6 +34,26 @@ html {
     padding: 0;
 }
 
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+}
+
+h3,
+p,
+span,
+.btn {
+    font-size: 1.3rem;
+}
+
+p {
+    line-height: 1.8rem;
+    margin: 0;
+}
+
 .container {
     display: flex;
 }
@@ -46,6 +66,14 @@ html {
     font-weight: 700;
     color: white;
     border: none;
+}
+
+img {
+    width: 25%;
+}
+
+.space {
+    height: 50px;
 }
 
  /* Header section */
@@ -105,6 +133,11 @@ header {
     font-style: italic;
 }
 
+/* Mission section */
+.mission {
+    color: rgb(1, 22, 39);
+    padding: 0 20px;
+}
 
 
 /* Features section */
