@@ -30,10 +30,22 @@ html {
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 16px;
     color: rgb(253, 255, 252);
+    margin: 0;
+    padding: 0;
 }
 
 .container {
     display: flex;
+}
+
+.btn {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(255, 159, 28);
+    font-weight: 700;
+    color: white;
+    border: none;
 }
 
  /* Header section */
@@ -58,7 +70,7 @@ header {
 }
 
 .navigation {
-    background-color: yellow;
+    background-color: rgb(255, 159, 28);
     width: 20%;
     display: flex;
     justify-content: flex-end;
@@ -71,6 +83,29 @@ header {
 }
 
 /* Banner */
+.banner {
+    background-image: url("../images/banner-img-blur.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.banner-quote {
+    width: 250px;
+    text-align: center;
+    background-color: rgba(253, 255, 252, 1);
+    color: rgb(1, 22, 39);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 300;
+    font-style: italic;
+}
+
+
 
 /* Features section */
 
