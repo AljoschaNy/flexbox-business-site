@@ -112,7 +112,7 @@ img {
 }
 
 
- /* Header section */
+/* Header section */
 header {        
     width: 100%;
     height: 100px;
@@ -158,7 +158,7 @@ section.logo img{
 
 @media only screen and (min-width:800px) {
     header {
-        height: 150px;
+        height: 110px;
     }
 
     div.header { 
@@ -169,7 +169,7 @@ section.logo img{
     
     section.logo img {
         display: block;
-        width: 140px;
+        width: 120px;
         height: auto;
     }
 
@@ -197,7 +197,7 @@ main {
 
 @media only screen and (min-width:800px) {
     main {
-        top: 150px;
+        top: 10px;
     }
 }
 
@@ -334,6 +334,7 @@ main {
 
     .feature {
         width: 30%;
+        height: 200px;
         /* For rounded corners */
         /* border-radius: 10px; */
     }
@@ -400,6 +401,10 @@ section.employees-list {
         width: 150px;
         height: 150px;
         border-radius: 50%;
+    }
+
+    .last-space {
+        display: none;
     }
 }
 
